@@ -9,7 +9,7 @@
     position:fixed;
     top:-50px;
     transition: top .3s ease-out;
-    z-index: 999;
+    z-index: 96;
 }
 #header-top .h-t-con{
     width:1200px;
