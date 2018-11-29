@@ -33,7 +33,6 @@ $(function(){
         mainList.each((x,y)=>{
             let changeTop = $(y).offset().top-$(document).scrollTop();
             let cla = "l-n-bgc"+(x+1);
-            console.log(x);
             if(x===7){
                 if(changeTop < scrHeight && (-1200)<changeTop){
                     $(leftNavList[x]).addClass(cla);
