@@ -3,7 +3,8 @@
 #left-nav{
     position: fixed;
     bottom: 50px;
-    left:294px;
+    left:50%;
+    margin-left: -673px!important;
     width:0px;
     height:0px;
     z-index: 66;
